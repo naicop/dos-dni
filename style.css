@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* esto es para el encabezado, y fuente no importa y no hay que usarlo pero si lo ves en server local lo necesitas */
+
+body{
+
+  font-family: Poppins;
+
+}
+
+.color-blanco{
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-primary {
+  background-color: #006644!important;
+  padding: 15px;
+}
+
+
+.ikiwi-logo {
+    max-height: 45px;
+    justify-content: center;
+}
+
+
+/*Acá empieza lo bueno*/
+
+/*Titulos y colores principales */
+.titulo{
+
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+
+
+
+.color-verde{
+  color:#006644;
+}
+
+/* Ofertas varias */
+
+/* Oferta única */
+
+
+
+/* Ofertas preaprobadas varias */
+
+.oferta-preaprobada{
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div.row-oferta-preaprobada{
+  border: 1px solid rgba(3,12,18,0.12);
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7); 
+  box-shadow: 5px 5px 8px 2px rgba(145,145,145,0.7);
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  padding: 7px;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+div.row-oferta-preaprobada:hover{
+  -webkit-box-shadow: 2px 2px 3px 2px #006644; 
+  box-shadow: 2px 2px 8px 2px #006644; ;
+ 
+ 
+}
+
+
+
+/* Para tablets y netbook */
+@media screen and (min-width: 768px){
+
+  div.row-oferta-preaprobada{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+ 
+
+  .titulo{
+    font-size: 2rem;
+  }
+
+  
+
+}
+/*Desktop normal y grandes*/
+@media screen and (min-width: 1024px){
+
+  div.row-oferta-preaprobada{
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+
+.titulo{
+  font-size: 2rem;
+}
+
+
+}
+
+
+.link-oferta{
+  text-decoration: none;
+  color:inherit;
+}
+.link-oferta:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+.nombre-dni{
+  font-size: large;
+}      
